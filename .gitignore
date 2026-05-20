@@ -1,0 +1,52 @@
+# macOS
+.DS_Store
+
+# Build directories
+build/
+cmake-build-*/
+out/
+bin/
+lib/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Compiled artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app/
+
+# CUDA / TensorRT generated artifacts
+*.cubin
+*.fatbin
+*.ptx
+*.engine
+*.plan
+
+# Runtime and generated data
+*.log
+*.tmp
+matrix_data*.txt
+
+# Python cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
